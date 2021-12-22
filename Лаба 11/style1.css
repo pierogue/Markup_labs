@@ -1,0 +1,21 @@
+to {
+    background-color: violet;
+    display: block;
+    border: black solid 1px;
+}
+
+from {
+    background-color: cadetblue;
+    display: block;
+    border: black 1px solid;
+}
+
+heading {
+    background-color: coral;
+    display: block;
+}
+
+body {
+    background-color: cornflowerblue;
+    display: block;
+}

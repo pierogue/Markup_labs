@@ -1,0 +1,22 @@
+<?xml version="1.0"
+encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl"
+href="style2.xsl"?>
+<catalog>
+<cd>
+<name>Натынчик Семён</name>
+<mark>7</mark>
+</cd>
+<cd>
+    <name>Поборцев Анатолий</name>
+    <mark>9</mark>
+</cd>
+<cd>
+    <name>Головач Лена</name>
+    <mark>3</mark>
+</cd>
+<cd>
+    <name>Аня Бобус</name>
+    <mark>2</mark>
+</cd>
+</catalog>

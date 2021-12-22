@@ -1,0 +1,46 @@
+.list li {
+    list-style: none;
+    background-image: url(icon.jpg);
+    background-repeat: no-repeat;
+    background-position: 0 4px;
+    padding-left: 25px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    }
+
+#fit {
+    height: 100px;
+    width: 100px;
+    float: right;
+    position: fixed;
+    right: 0;
+}
+
+p {
+    text-indent: 10px;
+}
+
+#firstP {
+    float: left;
+    height: 200px;
+    width: 250px;
+}
+
+#secondP {
+    float: right;
+    height: 500px;
+    width: 200px;
+    clear: left;
+}
+    
+a {
+    font-size: 40px;
+}
+
+.P1 {
+    clear: right;
+}
+
+.P2 {
+    clear: left;
+}

@@ -1,0 +1,42 @@
+#grid {
+    display: grid;
+    margin-right: 15px;
+    grid-template-columns: 10% 50% 40%;
+    grid-template-rows: 200px 400px 100px;
+    grid-gap: 10px;
+} 
+
+.gridCells {
+    font-family: incized;
+}
+
+@font-face {
+    font-family: incized;
+    src: url(../../fonts/Incized901_ct_bt/incised\ 901\ compact\ bt.ttf);
+}
+
+#navCell{
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: seagreen;
+}
+
+#headerCell {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    background-color: seagreen;
+}
+
+#articleCell {
+    background-color: seagreen;
+}
+
+#asideCell {
+    background-color: seagreen;
+}
+
+#footerCell {
+    background-color: seagreen;
+    grid-column-start:1 ;
+    grid-column-end: 4;
+}

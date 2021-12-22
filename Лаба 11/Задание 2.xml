@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style1.css"?>
+
+<!DOCTYPE note [
+<!ELEMENT note (to, from, heading, body)>
+<!ELEMENT to (#PCDATA)>
+<!ELEMENT from (#PCDATA)>
+<!ELEMENT heading (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+
+<note>
+<to>Анна</to>
+<from>Дмитрий</from>
+<heading>Напоминание</heading>
+<body>Не забудь обо мне в эти выходные!</body>
+</note>

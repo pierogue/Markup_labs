@@ -1,0 +1,33 @@
+.flex1 {
+    display: flex;
+    width: 50%;
+    height: 100px;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.flexHead1 {
+    width: 100%;
+    background-color: crimson;
+    margin: 2px;
+    height: 50px;
+}
+
+.flexBlock1 {
+    flex-basis: 200px;
+    background-color: rgb(139, 0, 35);
+    margin: 2px;
+    height: 80px;
+    flex-grow: 1;
+}
+
+* {
+    font-family: incized;
+    margin: 0px;
+    padding: 0px
+}
+
+@font-face {
+    font-family: incized;
+    src: url(../../fonts/Incized901_ct_bt/incised\ 901\ compact\ bt.ttf);
+}

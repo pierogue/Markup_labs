@@ -1,0 +1,31 @@
+div {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    font-size: 28px;
+    color: crimson;
+    animation: anim 20s linear 0s infinite alternate;
+}
+
+@keyframes anim {
+    from {
+        color: crimson;
+    }    
+    to {
+        color: blue;
+    }
+}
+
+h1 {
+    animation: pulse 2s linear  infinite alternate-reverse;
+}
+
+
+@keyframes pulse {
+    0% {
+        color: rgba(0, 0, 0, 1);
+    }
+    100% {
+        color: rgba(0, 0, 0, 0.2);
+    }
+}

@@ -1,0 +1,16 @@
+#galleryGrid {
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    grid-template-rows: 250px 250px;
+    grid-gap: 20px;
+}
+
+.galleryCell img{
+    width:200px;
+    height:200px;
+    padding: 25px;
+}
+
+.galleryCell {
+    background-color: seagreen;
+}

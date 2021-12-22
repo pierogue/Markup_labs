@@ -1,0 +1,66 @@
+div {
+    display: inline-block;   
+    padding: 10px 10px 10px 10px;
+    border-width: 8px;
+    font-size: 30px;
+}
+
+#first {
+    border-color: rgb(255, 0, 0);
+    border-style:outset;
+}
+
+#second {
+    border-color: rgb(0, 255, 0);
+    border-style:dashed;
+}
+
+#third {
+    border-style: dotted;
+    border-color: rgb(0, 0, 255);
+}
+
+#fourth {
+    border-style: double;
+    border-color: rgb(0,255,255);
+}
+
+#fifth {
+    border-color: rgb(255, 0, 255);
+    border-style:ridge;
+}
+
+#sixth {
+    border-color: rgb(255, 255, 0);
+    border-style: inset;
+}
+
+#seventh {
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+#p1 {
+    border-style: solid;
+    border-color: #ff7f50;
+    width: 400px;
+    text-align: center;
+}
+
+#p2 {
+    border:solid red 5px;
+    border-radius: 25px/40px;
+    box-shadow:inset 2px 2px 8px 8px rgba(0, 0, 0, .5);
+    overflow: auto;
+}
+
+#p3 {
+    border:solid #ff6347;
+}
+
+strong, em, span {
+    margin:5px;
+    padding: 5px;
+    background-color: #ffa500;
+    border:solid #ff4500
+}

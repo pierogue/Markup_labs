@@ -1,0 +1,27 @@
+@font-face {
+    font-family:"Monotype Corsiva Regular";
+    src: url("C:\Users\dadaa\Desktop\Компьютерные языки разметки данных\Лаба 2\Monotype Corsiva Regular.ttf")
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: purple;
+    font-family:"Monotype Corsiva Regular";
+}
+
+.FirstList {
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.SecondList {
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.ThirdList {
+    color: green;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+}

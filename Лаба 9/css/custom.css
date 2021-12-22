@@ -1,0 +1,28 @@
+.columns {
+    background-color: lightslategray;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+#logo {
+    width: 90%;
+    height: 90%;
+    padding: 5%;
+}
+
+#navMenu {
+    height: 200px;
+}
+
+#navMenu ul li a {
+    color:mintcream;
+}
+
+
+#navMenu ul li a:hover {
+    color:royalblue;
+}
+
+h1 {
+    font-size: 35px;
+}

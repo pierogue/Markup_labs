@@ -1,0 +1,40 @@
+div {
+    width: 400px;
+    height: 400px;
+    border: solid black 3px;
+    animation: anim 5s linear 0s infinite;
+    animation-direction: normal;
+    background-size: contain;
+}
+
+@keyframes anim {
+    0% {
+        background-image: url(src/drugi.jpg);
+    }
+    25% {
+        background-image: url(src/fishes.jpg);
+    }
+    50% {
+        background-image: url(src/les.jpg);
+    }
+    75% {
+        background-image: url(src/meat.jpg);
+    }
+    100% {
+        background-image: url(src/rooftop.jpg);
+    }
+}
+
+h1 {
+    animation: pulse 2s linear  infinite alternate-reverse;
+}
+
+
+@keyframes pulse {
+    0% {
+        color: rgba(0, 0, 0, 1);
+    }
+    100% {
+        color: rgba(0, 0, 0, 0.2);
+    }
+}

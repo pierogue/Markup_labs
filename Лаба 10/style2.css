@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: incized;
+}
+
+#menuList {
+    background-color: burlywood;
+}
+
+#menuList li {
+    display: inline-block;
+    width: 10%;
+    height: 30px;
+}
+
+#menuList li:hover {
+    box-shadow: 2px 2px 2px black;
+}
+
+#menuList li a:visited {
+    color:brown;
+}
+
+#menuList li a:hover  {
+    color: chocolate;
+}
+
+@media (min-width: 560px) {
+    #menuList #menuIcon {
+        display: none;
+    }
+}
+
+@font-face {
+    font-family:incized ;
+    src: url(../../fonts/Incized901_ct_bt/incised\ 901\ compact\ bt.ttf);
+}
+
+@media (max-width: 560px) {
+   
+
+    #menuList .menuOption {
+        display: none;
+    }
+
+    #menuList:hover .menuOption{
+        display: block;
+    }
+
+    nav {
+        width: 20%;
+    }
+    
+    #menuList li{
+        width: 100%;
+    }
+}

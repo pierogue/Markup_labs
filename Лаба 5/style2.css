@@ -1,0 +1,51 @@
+#p1 {
+    border:solid ;
+    border-color: orange darkblue yellow brown;
+}
+
+#p2 {
+    border-right: solid #007BA7;
+    border-left: solid #007BA7;
+}
+
+#p3 {
+    border: dashed cyan;
+    border-top: solid rgb(229, 43, 80);
+}
+
+#p4 {
+    border: dotted orange 1px;
+}
+
+#p5 {
+    border-top:darkblue solid 2px ;
+    border-bottom:darkblue solid 2px ;
+    border-left: darkred dashed;
+    border-right: darkred dashed;
+}
+
+#p6 {
+    border: double #b3446c;
+}
+
+#p7 {
+    border-top: dashed #808000 1px;
+    border-bottom: #ff7518 3px solid;
+}
+
+#p8 {
+    border-left: double #cc7722;
+    border-bottom: double #cc7722;
+}
+
+#p9 {
+    border:#b5a642 ridge;
+    
+}
+
+#p10 {
+    border-left: dotted rgb(0, 40, 0) 5px;
+    border-right: dotted rgb(0, 40, 0) 5px;
+    border-bottom: dotted rgb(0, 40, 0) 5px;
+
+}

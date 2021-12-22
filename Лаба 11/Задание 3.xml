@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style1.css"?>
+
+
+<note xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="note3.xsd">
+<to>Анна</to>
+<from>Дмитрий</from>
+<heading>Напоминание</heading>
+<body>Не забудь обо мне в эти выходные!</body>
+</note>

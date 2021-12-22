@@ -1,0 +1,51 @@
+img {
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+}
+
+div {
+    display: inline-block;
+}
+
+#firstPic {
+    transform-origin: 0 50%;
+    transform:
+    perspective(600px)
+    rotateY(15deg);
+}
+
+#secondPic {
+    transform-origin: 50% 100%;
+    transform:
+    perspective(600px)
+    rotateX(15deg);
+}
+
+#thirdPic {
+    transform-origin: 50% 100%;
+    transform:
+    perspective(600px)
+    rotateX(15deg);
+}
+
+#fourthPic {
+    transform-origin: 100% 50%;
+    transform:
+    perspective(600px)
+    rotateY(-15deg);
+}
+
+h1 {
+    animation: pulse 2s linear  infinite alternate-reverse;
+}
+
+
+@keyframes pulse {
+    0% {
+        color: rgba(0, 0, 0, 1);
+    }
+    100% {
+        color: rgba(0, 0, 0, 0.2);
+    }
+}

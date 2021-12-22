@@ -1,0 +1,153 @@
+        font-face {
+            font-family: Caveat;
+            src: url(fonts/Caveat.woff);
+        
+        }
+        body {
+            border: 7px groove rgb(125, 248, 248);
+            background-color: rgb(243, 223, 181);
+            margin: 30px;
+        }
+        div{
+            background-color: white;
+            background-image: url(logo.png);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 15%;
+            background-position: right top;
+            padding: 30px;
+        }
+        h1{
+            text-align: center;
+            font-family: Caveat;
+            text-shadow: 2px 2px 10px orange;
+            font-variant: small-caps;
+            font-size: 60px;
+            background-color:rgba(243, 223, 181, 0.548);
+            border-radius: 20px;
+        }
+        p{
+            font-family: Felix Titling;
+            font-size: 20px;
+        }
+        table, tr, td{
+            border: 3px solid black;
+            border-spacing: 0;
+            background-color: rgba(243, 223, 181, 0.486);
+            text-align: center;
+            border-collapse: collapse;
+            padding: 10px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        tr:first-child{
+            background-color: rgba(245, 207, 125, 0.644);
+        }
+        .tableh2{
+            text-align: center;
+        }
+        span{
+            color: rgb(0, 0, 0);
+            text-shadow: 2px 2px 5px rgb(255, 177, 104);
+        }
+
+        ul li{
+            list-style: none;
+            background-image: url(ball.png);
+            background-size: 1%;
+            background-repeat: no-repeat;
+            background-position: 0 4px;
+            padding-left: 25px;
+            margin-bottom: 10px;
+
+        }
+        img{
+            border: 5px dashed rgba(253, 131, 131, 0.774);
+        }
+        .img1{
+            float: left;
+            width: 500px;
+            margin-right: 10px;
+        }
+        .img2{
+            float: right;
+            width: 400px;
+        }
+        /*задание 3*/
+
+body {
+	border: 7px groove rgb(125, 248, 248);
+	background-color: rgb(243, 223, 181);
+	margin: 30px;
+}
+div {
+	background-color: white;
+	background-image: url(logo.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: 15%;
+	background-position: right top;
+	padding: 30px;
+}
+h1 {
+	text-align: center;
+	font-family: Caveat;
+	text-shadow: 2px 2px 10px orange;
+	font-variant: small-caps;
+	font-size: 60px;
+	background-color: rgba(243, 223, 181, 0.548);
+	border-radius: 20px;
+}
+p {
+	font-family: Felix Titling;
+	font-size: 20px;
+}
+table, tr, td {
+	border: 3px solid black;
+	border-spacing: 0;
+	background-color: rgba(243, 223, 181, 0.486);
+	text-align: center;
+	border-collapse: collapse;
+	padding: 10px;
+	margin: auto;
+	margin-bottom: 20px;
+}
+tr:first-child {
+	background-color: rgba(245, 207, 125, 0.644);
+}
+.tableh2 {
+	text-align: center;
+}
+span {
+	color: rgb(0, 0, 0);
+	text-shadow: 2px 2px 5px rgb(255, 177, 104);
+}
+ul li {
+	list-style: none;
+	background-image: url(ball.png);
+	background-size: 1%;
+	background-repeat: no-repeat;
+	background-position: 0 4px;
+	padding-left: 25px;
+	margin-bottom: 10px;
+}
+img {
+	border: 5px dashed rgba(253, 131, 131, 0.774);
+}
+.img1 {
+	float: left;
+	width: 500px;
+	margin-right: 10px;
+}
+.img2 {
+	float: right;
+	width: 400px;
+}
+.photos {
+	text-align: center;
+	display: block;
+	margin: auto;
+	background-color: rgba(255, 172, 49, 0.582);
+	border-radius: 2px;
+	padding: 10px;
+}

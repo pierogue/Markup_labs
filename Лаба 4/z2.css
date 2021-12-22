@@ -1,0 +1,24 @@
+table {
+    empty-cells: hide;
+    border:black;
+    border-spacing: 0px;
+}
+
+#FirstCol {
+    background-color: #00bff0;
+}
+
+#SecondCol {
+    background-color: purple;
+}
+
+#ThirdCol {
+    background-color: green;
+}
+
+th~td {
+    background-color: darkblue;
+    color: white;
+    font-size: 1.2em;
+    text-align: center;
+}

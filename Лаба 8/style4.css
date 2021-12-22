@@ -1,0 +1,41 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+ul li {
+    display: inline;
+    background: url(src/facultet.png) no-repeat ;
+    padding-left: 30px;
+    border: black 1px solid;
+    height: 30px;
+    background-size: 32px;
+}
+
+ul {
+    background-color: khaki;
+    font-size: 30px;
+}
+
+a {
+    color: black;
+}
+
+#fit:hover {
+    background-position-y:-32px ;
+    background-color: crimson;
+    color: white;
+}
+
+#pim:hover {
+    background-position-y:-96px ;
+    background-color:dodgerblue;
+    color: yellow;
+}
+
+#htit:hover {
+    background-position-y:-64px ;
+    background-color:forestgreen;
+    color: yellow;
+}
+

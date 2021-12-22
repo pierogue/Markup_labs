@@ -1,0 +1,78 @@
+.grid1 {
+    display: grid;
+    grid-template-columns:150px 150px 150px;
+    grid-template-rows:50px 50px;
+    grid-gap: 5px;
+
+}
+
+.gridHead1 {
+    background-color: lightseagreen;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    padding: 10px;
+    text-align: center;
+}
+
+.gridBlock1 {
+    background-color: lightgreen;
+    text-align: center;
+    padding: 10px;
+}
+
+span {
+    font-family: incized;
+    font-size: 30px;
+    color:rgb(32, 32, 32);
+}
+
+@font-face {
+    font-family:incized ;
+    src: url(../../fonts/Incized901_ct_bt/incised\ 901\ compact\ bt.ttf);
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 50px 200px 200px;
+    grid-template-rows: 400px;
+    grid-gap: 5px;
+    margin-top: 50px;
+}
+
+.gridHead2 {
+    background-color: darkolivegreen;
+}
+
+.verticalTitle {
+    text-orientation:upright;
+    writing-mode:vertical-lr;
+}
+
+.gridBlock2 {
+    background-color: darkseagreen;
+}
+
+.grid3 {
+    display: grid;
+    grid-template-columns: 200px 200px 50px;
+    grid-template-rows: 200px 200px 200px;
+    margin-top: 50px;
+    grid-gap: 5px    ;
+}
+
+.gridBlockDouble {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-color: deeppink;
+}
+
+.gridBlock3 {
+    background-color:hotpink;
+}
+
+#verticalTitle3 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 3;
+    background-color:violet ;
+}
